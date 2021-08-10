@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+ 
+}
+
+   *{box-sizing: border-box; 
+}
+body{
+
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 10px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    overflow-x: hidden;/*cacher le scroll du bas*/ 
+}
+h1{
+    margin:10px 0;
+}
+.box{
+    background-color:steelblue;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height:200px;
+    margin:10px ;
+    border-radius:10px;
+    box-shadow:2px 4px 5px rgba(0,0,0,0.3);
+    transform:translateX(300%);
+    transition:transform 0.4s ease;
+}
+.box:nth-of-type(even){
+    transform:translateX(-300%);
+}
+    
+.box.show{
+    transform: translateX(0);
+}
+.box h2{
+    font-size:45px;
+}
+/*@Github:Faiza-Berrichi
+       // @2021*/
