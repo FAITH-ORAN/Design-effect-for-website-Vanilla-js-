@@ -104,6 +104,17 @@ body{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
+          .key{
+            background-color: #e1e1e1;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+           .faq{
+            background-color: #3498db;;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
        
 
         .face2 {
@@ -206,6 +217,25 @@ body{
       border-radius: 15px;
     }
     .card:nth-child(9) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      border-radius: 15px;
+    }
+
+    .card:nth-child(10) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      border-radius: 15px;
+    }
+    .card:nth-child(11) .face.face2 {
       background-image: linear-gradient(
         40deg,
         #00fffc 0%,
