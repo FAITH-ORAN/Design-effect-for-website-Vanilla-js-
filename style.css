@@ -24,7 +24,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 35px;
-   margin-top: 600px;
+   margin-top: 900px;
     padding: 40px 0;}
 
     .card {
@@ -120,6 +120,13 @@ body{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
+
+          .nav{
+            background-color: #EAFBFF;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
 
        
 
@@ -253,6 +260,17 @@ body{
     }
 
     .card:nth-child(12) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      
+      border-radius: 15px;
+    }
+
+    .card:nth-child(13) .face.face2 {
       background-image: linear-gradient(
         40deg,
         #00fffc 0%,
