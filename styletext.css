@@ -3,6 +3,7 @@
   width: 100vw;
   text-align: center;
   margin-top: -10px;
+  position: static;
   z-index: 100;
 }
 

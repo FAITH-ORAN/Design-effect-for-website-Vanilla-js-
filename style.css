@@ -127,6 +127,19 @@ body{
             -webkit-text-fill-color: transparent;
           }
 
+          .social{
+            background-color: #8E44AD;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .water{
+            background-color: #6aB3F8;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+
 
        
 
@@ -271,6 +284,27 @@ body{
     }
 
     .card:nth-child(13) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      
+      border-radius: 15px;
+    }
+    .card:nth-child(14) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      
+      border-radius: 15px;
+    }
+
+    .card:nth-child(15) .face.face2 {
       background-image: linear-gradient(
         40deg,
         #00fffc 0%,
