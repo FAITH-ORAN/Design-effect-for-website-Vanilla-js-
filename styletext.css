@@ -56,6 +56,7 @@
           animation-delay: 840ms;
 }
 
+
 @-webkit-keyframes jump {
   33% {
     text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
