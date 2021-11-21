@@ -141,6 +141,17 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.drag{
+    background-color: lightblue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.draw{
+    background-color: slateblue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .face2 {
     transition: 0.5s;
 }
@@ -311,6 +322,27 @@ h2 {
     border-radius: 15px;
 }
 .card:nth-child(17) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+
+.card:nth-child(18) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+.card:nth-child(19) .face.face2 {
     background-image: linear-gradient(
       40deg,
       #00fffc 0%,
