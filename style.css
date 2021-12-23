@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Righteous", cursive;
-    min-height: 100vh;
+    height:auto;
 }
 
 .container {
@@ -20,7 +20,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 35px;
-    margin-top: 1100px;
     padding: 40px 0;
 }
 
@@ -159,6 +158,11 @@ h2 {
 }
 .cardM{
     background-color: #ecf0F1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navB{
+    background-color: #c0392b;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -374,6 +378,16 @@ h2 {
     border-radius: 15px;
 }
 .card:nth-child(21) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+.card:nth-child(22) .face.face2 {
     background-image: linear-gradient(
       40deg,
       #00fffc 0%,
