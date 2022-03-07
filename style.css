@@ -177,6 +177,11 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.githubApi{
+    background-color: #3f3f9b;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .face2 {
     transition: 0.5s;
 }
@@ -419,6 +424,16 @@ h2 {
     border-radius: 15px;
 }
 .card:nth-child(24) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+.card:nth-child(25) .face.face2 {
     background-image: linear-gradient(
       40deg,
       #00fffc 0%,
