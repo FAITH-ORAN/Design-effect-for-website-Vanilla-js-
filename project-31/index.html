@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Générateur de mot de passe</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Générateur de mot de passe</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn" id="clipboard"><i class="far fa-clipboard"></i></button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label for="">Longeur du mot de passe</label>
+                <input type="number" id="length" min="4" max="20">
+            </div>
+            <div class="setting">
+                <label for="">Ajouter des majuscules</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="setting">
+                <label for="">Ajouter des miniscules</label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="setting">
+                <label for="">Ajouter des numéros</label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="">Ajouter des symboles</label>
+                <input type="checkbox" id="symbols" checked>
+            </div>
+        </div>
+        <button class="btn btn-large" id="generate">générer un mot de passe</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
