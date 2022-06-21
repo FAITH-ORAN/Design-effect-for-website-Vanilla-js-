@@ -205,6 +205,16 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.note{
+    background-color: #7BDAF3;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.go{
+    background-color: purple;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 .face2 {
@@ -499,6 +509,26 @@ h2 {
     border-radius: 15px;
 }
 .card:nth-child(29) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+.card:nth-child(30) .face.face2 {
+    background-image: linear-gradient(
+      40deg,
+      #00fffc 0%,
+      #fc00ff 45%,
+      #fffc00 100%
+    );
+  
+    border-radius: 15px;
+}
+.card:nth-child(31) .face.face2 {
     background-image: linear-gradient(
       40deg,
       #00fffc 0%,
