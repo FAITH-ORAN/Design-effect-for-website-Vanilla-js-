@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+ 
+}
+
+   *{box-sizing: border-box; 
+}
+body{
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow:hidden;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+.square{
+    background-color: #1D1D1D;
+    box-shadow:0 0 2px black;
+    height:16px;
+    width:16px;
+    margin:2px;
+    transition: 2s ease;
+}
+.square:hover{
+    transition-duration: 0s;
+}
